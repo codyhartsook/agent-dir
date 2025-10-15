@@ -1,0 +1,45 @@
+{
+  "additional_interfaces": null,
+  "capabilities": {
+    "extensions": null,
+    "push_notifications": null,
+    "state_transition_history": null,
+    "streaming": true
+  },
+  "default_input_modes": [
+    "text"
+  ],
+  "default_output_modes": [
+    "text"
+  ],
+  "description": "Just a hello world agent",
+  "documentation_url": null,
+  "icon_url": null,
+  "name": "Hello World Agent",
+  "preferred_transport": "JSONRPC",
+  "protocol_version": "0.3.0",
+  "provider": null,
+  "security": null,
+  "security_schemes": null,
+  "signatures": null,
+  "skills": [
+    {
+      "description": "just returns hello world",
+      "examples": [
+        "hi",
+        "hello world"
+      ],
+      "id": "hello_world",
+      "input_modes": null,
+      "name": "Returns hello world",
+      "output_modes": null,
+      "security": null,
+      "tags": [
+        "hello world"
+      ]
+    }
+  ],
+  "supports_authenticated_extended_card": false,
+  "url": "http://localhost:9999/",
+  "version": "0.1.0"
+}
